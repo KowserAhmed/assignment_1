@@ -3,20 +3,32 @@
     padding: 0;
 }
 
-body {}
+body {
 
-section {
-    height: 600px;
 }
 
-.hire_me {
-    margin-top: 50px;
+.hearder_section ul{
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.hearder_section ul li{
+    float: right;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 40px;
+   list-style: none;
+}
+
+section {
+    height: 580px;
+}
+.hire_me{
+    margin-top: 60px;
 }
 
 .half_width {
     width: 40%;
     float: left;
-    margin-top: 3%;
     margin-left: 5%;
     padding-left: 3%;
 }
@@ -24,11 +36,6 @@ section {
 .half_width img {
     width: 100%;
 }
-
-section {
-    height: 600px;
-}
-
 h1,
 h2 {
     font-family: 'Bebas Neue';
@@ -38,41 +45,94 @@ h2 {
 h1 {
     font-size: 60px;
 }
+h2 {
+    font-size: 48px;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 5px 5px 0;
+}
 
 .orange-heighlight {
-    color: #FF8367;
+    color:  #5eca80;
 }
 
 .button {
     text-decoration: none;
-    background-image: linear-gradient(90deg, lightsalmon, tomato);
+    background-image: linear-gradient(90deg, #a1f4bb ,  #6db784);
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .latest_project {
+    clear: both;
+    content: "";
+    display: table;
     background-color: #E5E5E5;
-    margin-top: 68px;
-}
-
-h2 {
-    font-size: 48px;
+    padding: 120px 0;
 }
 .latest_project h2{
-    text-align: center;
-    padding-top: 123px;
     padding-bottom: 71px;
-}
-.project img {
-    width: 330px;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
 .project {
     float: left;
-    width: 25%;
-    margin-left: 3%;
+    width: 25.33%;
     padding: 2%;
+    background-color: aliceblue;
+    border-radius: 3%;
+    margin-left: 3%;
+}
+.project img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.work_inquiry{
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 906px;
+    height: 225px;
+    background-position: center;
+    margin: 80px auto;
+}
+.work_inquiry h1{
+    float: left;
+    margin-top: 82.5px;
+    color: black;
+    text-align: center;
+    width: 60%;
+}
+.work_inquiry a{
+    float: left;
+    margin-top: 100px;
+     margin-left: 10%;
+}
+
+.social_media{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.social_media img{
+    width: 40px;
+    padding: 5px;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    height:40px;
+    weight:100%;
+    background-color:#E5E5E5;
+    color: #333337;
+}
+footer p{
+    padding: 10px;
+    
 }
